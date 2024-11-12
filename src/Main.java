@@ -1,22 +1,26 @@
+import com.sun.source.tree.IfTree;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
         // int 나이;
         // 나이 = 20;
         int 나이 = 20;
-        나이 = 나이 +1;
-        나이 = 나이 +1;
-        나이 = 나이 +1;
-        나이 = 나이 +1;
+        나이 = 나이 + 1;
+        나이 = 나이 + 1;
+        나이 = 나이 + 1;
+        나이 = 나이 + 1;
 
         System.out.println("나이 = " + 나이);
 
 
         int count = 5;
-        count = count -1;
-        count = count -1;
-        count = count -1;
-        count = count -1;
+        count = count - 1;
+        count = count - 1;
+        count = count - 1;
+        count = count - 1;
 
         System.out.println("count = " + count);
 
@@ -39,27 +43,11 @@ public class Main {
 
         System.out.println("n = " + n); //n = -20
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        LocalDate currentTime = LocalDate.now();
+        System.out.println(currentTime.plusDays(18));
+        System.out.println(currentTime.plusDays(19));
 
 
     }
 }
+
