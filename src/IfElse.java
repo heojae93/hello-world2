@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Random;
 public class IfElse {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -192,6 +192,44 @@ public class IfElse {
             System.out.println("moviePrice = " + moviePrice);
 
 
+        }
+        while (true) {
+            System.out.println("반복 중입니다.");
+            System.out.print("종료하시겠습니까?(y/n): ");
+            char input = scanner.nextLine().charAt(0);
+            if(input == 'y') {
+                break;
+            }
+
+            System.out.println("반복이 종료되었습니다.");
+
+        }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -202,7 +240,15 @@ public class IfElse {
 
 
         }
-    }
-        }
+
+}
+
+
+
+
+
+
+
+
 
 

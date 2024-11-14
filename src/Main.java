@@ -2,7 +2,6 @@ import com.sun.source.tree.IfTree;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
 public class Main {
     public static void main(String[] args) {
         // int 나이;
@@ -46,6 +45,36 @@ public class Main {
         LocalDate currentTime = LocalDate.now();
         System.out.println(currentTime.plusDays(18));
         System.out.println(currentTime.plusDays(19));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
